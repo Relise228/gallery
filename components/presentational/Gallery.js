@@ -1,11 +1,6 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
-import {
-  FlatList,
-  ScrollView,
-  TouchableOpacity,
-} from 'react-native-gesture-handler';
-import {galleryAPI} from '../../api/api';
+import {FlatList, TouchableOpacity} from 'react-native-gesture-handler';
 
 const Gallery = (props) => {
   let renderItem = ({item}) => {
